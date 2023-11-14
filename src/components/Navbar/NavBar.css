@@ -1,0 +1,26 @@
+.navbar {
+    box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: #fae9e4;
+}
+
+.logo-navbar{
+    width: 10rem;
+    height: 8rem;
+    padding: 0;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+.nav-link{
+    font-family: 'Alumni Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

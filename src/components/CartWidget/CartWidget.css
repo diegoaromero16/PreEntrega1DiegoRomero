@@ -1,0 +1,11 @@
+.btn{
+    border: 1px solid #a5503c;
+    color: #a5503c;
+}
+.btn:hover{
+    background-color: #a5503c;
+    color: white;
+}
+#count-cart{
+    background-color: #a5503c;
+}

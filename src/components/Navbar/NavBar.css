@@ -5,7 +5,7 @@
     background-color: #fae9e4;
 }
 
-.logo-navbar{
+.logo-navbar {
     width: 10rem;
     height: 8rem;
     padding: 0;
@@ -15,7 +15,7 @@ p {
     font-size: 0.7rem;
 }
 
-.nav-link{
+.links {
     font-family: 'Alumni Sans', sans-serif;
     font-family: 'DM Serif Display', serif;
     font-family: 'Montserrat', sans-serif;
@@ -23,4 +23,9 @@ p {
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.ddl-bg{
+    background-color: #fae9e4;
 }

@@ -1,0 +1,20 @@
+[
+   {
+      "id": 1,
+      "title": "MATE CAMIONERO ACERO LISO",
+      "image": "https://arjaque.com/wp-content/uploads/2022/06/2b-CAMIONERO-DE-ACERO-LISO-MARRON-3500.jpg",
+      "precioLista": 20800,
+      "precioContado": 16640,
+      "descripcion": "MATE DE CALABAZA BRASILERA FORRADO EN CUERO, CON COSTURA ARTESANAL Y VIROLA DE ACERO LISO",
+      "categoria": "mates"
+   },
+   {
+      "id": 2,
+      "title": "PICO DE LORO ALPACA PREMIUM",
+      "image": "https://arjaque.com/wp-content/uploads/2022/07/bombilla-pico-loro-de-alpaca-premium-3300.jpg ",
+      "precioLista": 18200,
+      "precioContado": 14560,
+      "descripcion": "BOMBILLA DE ALPACA PREMIUM URUGUAYA CON FILTRO CUCHARA.",
+      "categoria": "bombillas"
+   }
+]

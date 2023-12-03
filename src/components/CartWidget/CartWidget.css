@@ -1,8 +1,8 @@
-.btn{
+.btn-cart{
     border: 1px solid #a5503c;
     color: #a5503c;
 }
-.btn:hover{
+.btn-cart:hover{
     background-color: #a5503c;
     color: white;
 }

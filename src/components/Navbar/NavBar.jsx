@@ -17,13 +17,9 @@ function NavBar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className='align-items-center'>
                             <Link className='links px-2' to="/">Inicio</Link>
-                            {/* <Link className='links px-2' to="/Productos">Productos</Link> */}
-                            <NavDropdown title="Productos" id="basic-nav-dropdown" className='links px-2'>
-                                <NavDropdown.Item as={Link} to='/category/mates' className='ddl-bg'>Mates</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to='/category/bombillas' className='ddl-bg'>Bombillas</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to='/category/yerbas' className='ddl-bg'>Yerbas</NavDropdown.Item>
-                            </NavDropdown>
-                            <Link className='links px-2' to="#link">Nosotros</Link>
+                            <Link to="/category/mates" className="links px-2">Mates</Link>
+                            <Link to="/category/bombillas" className="links px-2">Bombillas</Link>
+                            <Link to="/category/termos" className='links px-2'>Termos</Link>
                         </Nav>
                         <CartWidget />
                     </Navbar.Collapse>

@@ -9,3 +9,23 @@
     color: #a5503c;
     border: 1px solid #a5503c;
 }
+
+.font {
+    font-family: 'Alumni Sans', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.titles {
+    text-decoration: underline 1px ;
+}
+
+.card-style{
+    width: 20rem;
+    height: 100%;
+    margin: 1rem;
+}

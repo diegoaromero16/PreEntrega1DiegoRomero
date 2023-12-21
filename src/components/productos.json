@@ -6,16 +6,18 @@
       "precioLista": 20800,
       "precioContado": 16640,
       "descripcion": "MATE DE CALABAZA BRASILERA FORRADO EN CUERO, CON COSTURA ARTESANAL Y VIROLA DE ACERO LISO",
-      "categoria": "mates"
+      "categoria": "mates",
+      "stock": 10
    },
    {
       "id": 2,
       "title": "PICO DE LORO ALPACA PREMIUM",
-      "image": "https://arjaque.com/wp-content/uploads/2022/07/bombilla-pico-loro-de-alpaca-premium-3300.jpg ",
+      "image": "https://arjaque.com/wp-content/uploads/2022/07/bombilla-pico-loro-de-alpaca-premium-3300.jpg",
       "precioLista": 18200,
       "precioContado": 14560,
       "descripcion": "BOMBILLA DE ALPACA PREMIUM URUGUAYA CON FILTRO CUCHARA.",
-      "categoria": "bombillas"
+      "categoria": "bombillas",
+      "stock": 10
    },
    {
       "id": 3,
@@ -24,7 +26,8 @@
       "precioLista": 88900,
       "precioContado": 71120,
       "descripcion": "TERMO BICAPA DE ACERO. TAPÓN CEBADOR DE 360°. LA MANTENCIÓN TÉRMICA ES DE 24 HS TANTO PARA CALOR COMO PARA FRIO.",
-      "categoria": "termos"
+      "categoria": "termos",
+      "stock": 10
    },
    {
       "id": 4,
@@ -33,7 +36,8 @@
       "precioLista": 65000,
       "precioContado": 52000,
       "descripcion": "FABRICADO EN ACERO DE DOBLE CAPA. PICO VERTEDOR 360°. MANIJA PLEGABLE",
-      "categoria": "termos"
+      "categoria": "termos",
+      "stock": 10
    },
    {
       "id": 5,
@@ -42,7 +46,8 @@
       "precioLista": 76000,
       "precioContado": 60800,
       "descripcion": "TERMO BICAPA DE ACERO. TAPÓN CEBADOR DE 360°. LA MANTENCIÓN TÉRMICA ES DE 24 HS TANTO PARA CALOR COMO PARA FRIO.",
-      "categoria": "termos"
+      "categoria": "termos",
+      "stock": 10
    },
    {
       "id": 6,
@@ -51,7 +56,8 @@
       "precioLista": 96000,
       "precioContado": 76800,
       "descripcion": "TERMO BICAPA DE ACERO. MANIJA TIPO REBATIBLE. LA MANTENCIÓN TÉRMICA ES DE 40 HS PARA CALOR Y 45 HS PARA FRIO.",
-      "categoria": "termos"
+      "categoria": "termos",
+      "stock": 10
    },
    {
       "id": 7,
@@ -60,7 +66,8 @@
       "precioLista": 88900,
       "precioContado": 71120,
       "descripcion": "TERMO BICAPA DE ACERO.MANTENCIÓN TÉRMICA DE 24 HS (FRIO-CALOR). MANIJA PLEGABLE",
-      "categoria": "termos"
+      "categoria": "termos",
+      "stock": 10
    },
    {
       "id": 8,
@@ -69,7 +76,8 @@
       "precioLista": 11000,
       "precioContado": 8800,
       "descripcion": "MATE FORRADO EN CUERO, VIROLA DE ALUMINIO E INTERIOR DE CALABAZA.",
-      "categoria": "mates"
+      "categoria": "mates",
+      "stock": 10
    },
    {
       "id": 9,
@@ -78,7 +86,8 @@
       "precioLista": 41600,
       "precioContado": 33280,
       "descripcion": "MATE DE CALABAZA ARGENTINA FORRADO EN CUERO, CON COSTURA ARTESANAL Y VIROLA DE ALPACA.",
-      "categoria": "mates"
+      "categoria": "mates",
+      "stock": 10
    },
    {
       "id": 10,
@@ -87,7 +96,8 @@
       "precioLista": 62400,
       "precioContado": 49920,
       "descripcion": "MATE DE CALABAZA ARGENTINA FORRADO EN CUERO, CON COSTURA ARTESANAL Y VIROLA DE ALPACA.",
-      "categoria": "mates"
+      "categoria": "mates",
+      "stock": 10
    },
    {
       "id": 11,
@@ -96,7 +106,8 @@
       "precioLista": 20800,
       "precioContado": 16640,
       "descripcion": "MATE DE CALABAZA BRASILERA FORRADO EN CUERO, CON COSTURA ARTESANAL Y VIROLA DE ACERO LISO.",
-      "categoria": "mates"
+      "categoria": "mates",
+      "stock": 10
    },
    {
       "id": 12,
@@ -105,7 +116,8 @@
       "precioLista": 26000,
       "precioContado": 20800,
       "descripcion": "MATE FORRADO EN CUERO CON COSTURA ARTESANAL, VIROLA DE ACERO CINCELADA Y CALABAZA BRASILEÑA.",
-      "categoria": "mates"
+      "categoria": "mates",
+      "stock": 10
    },
    {
       "id": 13,
@@ -114,7 +126,8 @@
       "precioLista": 4000,
       "precioContado": 3200,
       "descripcion": "BOMBILLA DE COBRE NIQUELADO Y FILTRO CUCHARA CON PICO PINTADO EN DORADO.",
-      "categoria": "bombillas"
+      "categoria": "bombillas",
+      "stock": 10
    },
    {
       "id": 14,
@@ -123,7 +136,8 @@
       "precioLista": 4000,
       "precioContado": 3200,
       "descripcion": "BOMBILLA DE COBRE NIQUELADO Y FILTRO CUCHARA.",
-      "categoria": "bombillas"
+      "categoria": "bombillas",
+      "stock": 10
    },
    {
       "id": 15,
@@ -132,6 +146,7 @@
       "precioLista": 4500,
       "precioContado": 3600,
       "descripcion": "BOMBILLA DE ACERO TIPO PICO LORO CON FILTRO RANURADO DESMONTABLE.",
-      "categoria": "bombillas"
+      "categoria": "bombillas",
+      "stock": 10
    }
 ]

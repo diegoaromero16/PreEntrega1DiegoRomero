@@ -2,7 +2,7 @@ import CartWidget from '../CartWidget/CartWidget';
 import Navbar from 'react-bootstrap/Navbar';
 import './NavBar.css';
 import { Container, Nav, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 function NavBar() {
@@ -21,7 +21,9 @@ function NavBar() {
                             <Link to="/category/bombillas" className="links px-2">Bombillas</Link>
                             <Link to="/category/termos" className='links px-2'>Termos</Link>
                         </Nav>
-                        <CartWidget />
+                        <Link to="/Cart">
+                            <CartWidget />
+                        </Link>
                     </Navbar.Collapse>
                 </div>
             </Container>

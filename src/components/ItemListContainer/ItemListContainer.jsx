@@ -1,20 +1,26 @@
 import { useEffect, useState } from 'react'
 import './ItemListContainer.css'
 import { Link, useParams } from 'react-router-dom'
-import productosJson from '../productos.json'
 import { Button, Card } from 'react-bootstrap'
+import { getFirestore, collection, getDocs, where, query } from 'firebase/firestore'
 
 
 function ItemListContainer({ greetings }) {
     const { id } = useParams();
     const [productos, setProductos] = useState([]);
     useEffect(() => {
+        const queryDb = getFirestore();
+        const productosCollection = collection(queryDb, "products");
+
         if (id) {
-            setProductos(productosJson.filter(item => item.categoria === id));
-            console.log(productos);
-        }
-        else {
-            setProductos(productosJson);
+            const productoFilter = query(productosCollection, where('categoria', '==', id));
+            getDocs(productoFilter).then((response) =>
+                setProductos(response.docs.map((p) => ({ id: p.id, ...p.data()})))
+            );
+        } else {
+            getDocs(productosCollection).then((response) =>
+                setProductos(response.docs.map((p) => ({ id: p.id, ...p.data()})))
+            );
         }
     }, [id]);
 
@@ -22,7 +28,6 @@ function ItemListContainer({ greetings }) {
         <div className='container'>
             <div className='row align-items-center'>
                 <h4 className='text-center my-4 font titles'>{greetings}</h4>
-
                 {productos.map((prod) => (
                     <div className="col-4 " key={prod.id}>
                         <Card className='card-style' >

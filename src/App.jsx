@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Error from './components/Error/Error'
 import NavBar from './components/NavBar/NavBar'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import CartProvider from './components/Context/CartContext'
@@ -25,7 +24,6 @@ function App() {
             <Route path='/item/:id' element={<ItemDetailContainer />} />
             <Route path={"/Cart"} element={<Cart />} />
             <Route path={"/Checkout"} element={<Checkout />} />
-            <Route path='/*' element={<Error />} />
           </Routes>
         </CartProvider>
       </BrowserRouter >

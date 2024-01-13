@@ -1,8 +1,38 @@
-# React + Vite
+# El Vidon del doctor
+## Tienda de mates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El vidon del doctor es una tienda online de mates desarrollada con React.
 
-Currently, two official plugins are available:
+## Librerias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React Bootstrap
+- Formik
+- React-Router-Dom
+- react-toastify
+- Yup
+
+## Tecnologias
+
+El vidon del doctor utiliza
+- [ReactJS]
+- [Vite]
+- [Bootstrap]
+- [HTML5]
+- [CSS3]
+
+## Instalacion
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd *ruta del proyecto*
+npm install
+```
+
+## Correr el  proyecto
+
+Una vez instaladas las dependencias:
+
+```sh
+npm run dev
+```

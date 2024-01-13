@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import CartProvider from './components/Context/CartContext'
 import Cart from './components/Cart/Cart'
+import Checkout from './components/Checkout/Checkout'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
             <Route path='/category/:id' element={<ItemListContainer greetings={'3 CUOTAS SIN INTERÉS en toda la tienda ENVÍO GRATIS'} />} />
             <Route path='/item/:id' element={<ItemDetailContainer />} />
             <Route path={"/Cart"} element={<Cart />} />
+            <Route path={"/Checkout"} element={<Checkout />} />
             <Route path='/*' element={<Error />} />
           </Routes>
         </CartProvider>

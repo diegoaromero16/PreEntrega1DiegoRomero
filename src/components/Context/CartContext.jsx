@@ -1,3 +1,4 @@
+import { collection } from 'firebase/firestore';
 import React, { useState, useContext } from 'react'
 
 const CartContext = React.createContext('');
@@ -21,7 +22,7 @@ const CartProvider = ({ children }) => {
     };
 
     const totalPrice = () => {
-        return cart.reduce((prev, act) => prev + act.quantity * act.price, 0);
+        return cart.reduce((prev, act) => prev + act.quantity * act.precioLista, 0);
     };
 
     const totalProducts = () =>
